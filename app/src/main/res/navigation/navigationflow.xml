@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationflow"
+    android:label="navigationflow"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.alexandrestefani.jokenpo.FragmentHome"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_fragmentHome_to_segundoFragmento"
+            app:destination="@id/segundoFragmento" />
+    </fragment>
+    <fragment
+        android:id="@+id/segundoFragmento"
+        android:name="com.alexandrestefani.jokenpo.FragmentJogador"
+        android:label="@string/jogador1"
+        tools:layout="@layout/fragmentjogador">
+        <action
+            android:id="@+id/action_segundoFragmento_to_fragmentoResultado"
+            app:destination="@id/fragmentoResultado" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentoResultado"
+        android:name="com.alexandrestefani.jokenpo.FragmentoResultado"
+        android:label="@string/resultado"
+        tools:layout="@layout/fragment_fragmento_resultado" />
+    <fragment
+        android:id="@+id/fragmentoRegras"
+        android:name="com.alexandrestefani.jokenpo.FragmentoRegras"
+        android:label="fragment_fragmento_regras"
+        tools:layout="@layout/fragment_fragmento_regras" />
+</navigation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragmentHome"
+        android:title="@string/repetir"
+        />
+    <item
+        android:id="@+id/fragmentoResultado"
+        android:title="@string/resultadocaps"
+        />
+
+</menu>
