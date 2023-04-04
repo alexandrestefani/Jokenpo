@@ -32,6 +32,6 @@
     <fragment
         android:id="@+id/fragmentoRegras"
         android:name="com.alexandrestefani.jokenpo.FragmentoRegras"
-        android:label="fragment_fragmento_regras"
+        android:label="@string/regras"
         tools:layout="@layout/fragment_fragmento_regras" />
 </navigation>
