@@ -10,7 +10,7 @@
         />
     <item
         android:id="@+id/fragmentHome"
-        android:title="@string/repetir"
+        android:title="@string/home"
         />
     <item
         android:id="@+id/fragmentoRegras"

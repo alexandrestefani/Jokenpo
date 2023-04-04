@@ -2,18 +2,25 @@
     <string name="app_name">Jokenpo</string>
     <string name="boasvidas">Bem-vindo</string>
     <string name="jogar">Jogar</string>
-    <string name="repetir">REINICIAR</string>
+    <string name="repetir">COMEÇAR</string>
     <string name="regras">REGRAS</string>
     <string name="regrascaixabaixa">Regras</string>
-    <string name="jogador1">Jogador 1</string>
-    <string name="resultadocaps">RESULTADO</string>
+    <string name="jogador1">Escolher</string>
+    <string name="resultadocaps">JOGAR</string>
     <string name="textoapoiojogador">Selecionar jogada</string>
-    <string name="jogadorcaps">JOGADOR</string>
+    <string name="jogadorcaps">ESCOLHER</string>
     <string name="resultado">Resultado</string>
-    <string name="resultadotextoapoio">O xxx \nganhou!</string>
+    <string name="texto_apoio_jogador">Selecione uma jogada:</string>
+    <string name="home">HOME</string>
     <string name="regrasexplicacao">Os jogadores escolhem seus simbolos\nganha quem atender esses pontos:\n\n - Tesoura ganha do papel (corta).\n - Pedra ganha da tesoura (quebrando).\n - Papel ganha da pedra (envolvendo).</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="possibilidades_de_jogadas">
+        <item>"pedra"</item>
+        <item>"papel"</item>
+        <item>"tesoura"</item>
+    </string-array>
 
 
 </resources>
